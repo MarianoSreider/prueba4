@@ -353,7 +353,7 @@ a:hover{
     margin-top: 5px;
     width: 60%;
     text-align: left;
-    border-radius: 15px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     outline: none;
 }
