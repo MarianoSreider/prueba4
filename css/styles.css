@@ -506,15 +506,16 @@ a:hover{
 }
 
 @media screen and (max-width: 576px) and (orientation: portrait) {
-    body {
+    .app {
         display: none;
     }
    .twin1 {
     font-weight: 100;
     font-size: 20px;
-    text-align: center;
     color: black;
-    padding-top: 20px;
+    margin: 20px;
+    padding: 30px 20px 30px;
+    width: 80%;
   }
   
   .twin1::after {
