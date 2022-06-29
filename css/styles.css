@@ -509,5 +509,16 @@ a:hover{
     body {
         display: none;
     }
+   .twin1 {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+  }
+  
+  .twin1::after {
+    Content: "Turn you cellphone into landscape mode to diplay the content";
+  }
 }
 
