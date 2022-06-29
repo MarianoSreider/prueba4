@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/fontawesome-free-5.13.1-web/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/tooltips.js"></script>
+        <title>Revenue Lifecycle</title>
+        <link rel="icon" href="resources/Elements/acn-logo.png" type="image/png" />
+    </head>
+<body style="padding-bottom: 5%;">
+  <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>IMPORTANT: Incorrect Revenue, Backlog & CCI by Service. </strong>An issue has been discovered where September SG Revenue adjustments were made by the system that are materially impacting SG Revenue, Backlog & CCI results in SAP BR & MMB. Support Teams are currently evaluating how to adjust these results and will correct the issue with October results.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>  -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <p class="navbar-brand" style="padding-top: 1%;">
+      <small>AS OF: <b>FY22 OCT</b></small>
+    </p>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+      </ul>
+    </div> 
+    <form class="form-inline my-2 my-lg-0" style="padding-top: .5%;">
+
+      <span data-toggle="modal" data-target="#videoModal">
+          <button type="button" data-tooltip="tooltip" data-toggle="tooltip" data-placement="top" title="Watch a walkthrough" class="nav-link btn btn-light feedback">Walkthrough &nbsp;<i class="fas fa-play-circle feedback-icon"></i></button>           
+      </span>
+      
+      <span data-toggle="modal" data-target="#WNModal">
+        <button type="button" data-tooltip="tooltip" data-toggle="tooltip" data-placement="top" title="What's new?" class="nav-link btn btn-light feedback">New &nbsp;<i class="fas fa-info-circle feedback-icon"></i></button>           
+      </span>
+      
+      <a href="mailto:FBM_PA_DASFeedback@accenture.com?subject=Feedback on Revenue Lifecycle" type="button" data-tooltip="tooltip" data-toggle="tooltip" data-placement="top" title="Email us!" class="nav-link btn btn-light feedback">Share your feedback &nbsp;<i class="fas fa-comment-dots feedback-icon"></i></a>           
+      
+
+    </form>
+  </nav>
+
+  <!-- Modal What's New -->
+  <div class="modal fade" id="WNModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">What's new?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p><b>★ October FY22</b> month end data has been incorporated into every section. </p>
+
+          <p><b>★ September's Revenue, Backlog & CCI by SG have been corrected.</b> Support Teams have addressed the issue with SAP BR & MMB results caused by SG Revenue adjustments made by the system. </p>
+
+          <p><b>★</b> <b>How is Yield trending?</b> has been redesigned to enhance the user experience. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" style="background-color: indigo;" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal END -->
+
+    <!-- Modal Walkthrough -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" style="max-width: 800px !important;" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Walkthrough</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <iframe id="kmsembed-1_nbadcetg" width="770" height="520" src="https://mediaexchange.accenture.com/embed/secure/iframe/entryId/1_nbadcetg/uiConfId/27188242" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade"  frameborder="0" title="Kaltura Player"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal END -->
+
+  <div style="padding-left: 20%;">
+    <img class="logo_home" src="resources/Elements/logo.png" alt="">
+  </div>
+  <div style='text-align: center;' class="Displayindex">
+    <a href="OVERVIEW.html"  type="button" class="btn btn-light btn-menu-index-beta" style="width: 44.5%;">
+        <div class="div-btn-menu-index">
+            <h5 style="margin-top: 10px;">REVENUE OVERVIEW</h5>
+            <p class="Subtitle" style="margin-block-end: 0 !important;">View summary figures for how we are performing across the revenue lifecycle.</p>
+            <p class="row" style="font-size: 14px !important;"><i class="fas fa-caret-right fa-2x" style="font-size: 22px !important;"></i></p>
+        </div>
+    </a>
+
+    <a href="HELP_OVERVIEW.html"  type="button" class="btn btn-light btn-menu-index-ha"> 
+      <div class="div-btn-menu-index">
+          HELP &
+          <p style="margin-top: -5px;">ASSUMPTIONS</p>
+          <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p>
+      </div>
+    </a>
+  </div>
+  <div style='text-align: center;'>
+    
+    <a href="PIPELINE_COMPOSED.html"  type="button" class="btn btn-light btn-menu-index-beta">
+        <div class="div-btn-menu-index">
+            HOW IS 
+            <p style="margin-top: -5px;">PIPELINE COMPOSED?</p>
+            <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p>
+        </div>
+    </a>
+
+    <a href="WINS_ANALYSIS.html" type="button" class="btn btn-light btn-menu-index-beta">
+      <div class="div-btn-menu-index">
+          HOW IS
+          <p style="margin-top: -5px;">YIELD TRENDING?</p>
+          <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p>
+      </div>
+    </a>
+
+    <a href="BACKLOG_CHANGING.html" type="button" class="btn btn-light btn-menu-index-beta">
+        <div class="div-btn-menu-index">
+            HOW IS 
+            <p style="margin-top: -5px;">BACKLOG CHANGING?</p>
+            <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p>
+        </div>
+    </a>
+
+    <a href="BACKLOG_PHASED.html" type="button" type="button" class="btn btn-light btn-menu-index-beta">
+        <div class="div-btn-menu-index">
+            HOW IS 
+            <p style="margin-top: -5px;">BACKLOG PHASED?</p>
+            <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p>
+        </div>
+    </a>
+
+    <button href="" type="button" class="btn btn-light btn-menu-index-disabled">
+      <div class="div-btn-menu-index">
+          IS BACKLOG
+          <p style="margin-top: -5px;">AN ANOMALY?</p>
+          <p class="row" style="font-size: 10px !important;"><i class="fas fa-caret-right fa-2x"></i></p><b>COMING SOON</b>
+      </div>
+    </button>
+  </div>
+    
+    
+</body>
+<footer style="color: black !important; background-color: white;">
+  <p>
+      Copyright 2021 <b>Accenture</b>. All rights reserved. <i>Highly confidential. Not to be distributed further without authorization of the sender.</i>
+  </p>
+</footer>
+</html>
